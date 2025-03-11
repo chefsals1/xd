@@ -1,0 +1,402 @@
+body{
+    width: 100%;
+    background-color: #6b9071;
+}
+
+.nav-1{
+    width: 1000px;
+    height: 50px;
+    border-radius: 30px;
+    background-color: #375534;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 450px;
+    margin-top: 30px;
+}
+
+.navigator-1{
+    color: #E3EED4;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navigator-2{
+    color: #E3EED4;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navigator-3{
+    color: #E3EED4;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.navigator-4{
+    color: #E3EED4;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+.buy{
+    position: absolute;
+    left:1340px;
+    top:40px;
+    width: 100px;
+    height: 30px;
+    color: #E3EED4;
+    font-size: 18px;
+    background-color: #6b9071;
+    border-radius: 15px;
+    border: none;
+}
+
+.name{
+    position: absolute;
+    right: 1345px;
+    font-size: 18px;
+    color: #E3EED4;
+    top:27px;
+}
+
+.register{
+  position: absolute;
+  right:150px;
+  width: 100px;
+  height: 40px;
+  font-size: 18px;
+  top:30px;
+  background-color: #375534;
+  border-radius: 20px;
+  border: none;
+  text-decoration: none;
+  font-size: 18px;
+  color: #E3EED4;
+}
+
+.login{
+    position: absolute;
+    right:30px;
+    top:30px;
+    width: 100px;
+    height: 40px;
+    background-color: #375534;
+    border-radius: 20px;
+    border: none;
+}
+
+.login a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E3EED4;
+}
+
+.register a{
+    text-decoration: none;
+    font-size: 18px;
+    color: #E3EED4;
+}
+
+.header-vstyp img{
+    width: 900px;
+    height: 456px;
+    border-radius: 70px;
+    position: absolute;
+    left:300px;
+    bottom:0px;
+}
+
+.Comapany{
+     background-color: white;
+     width: 1200px;
+     height: 456px;
+     border-radius: 70px;
+     position: absolute;
+     left:400px;
+     top:200px;
+}
+
+h1{
+    position: absolute;
+    bottom:370px;
+    left:50PX;
+    font-size: 30PX;
+    border-bottom:3px solid black ;
+    width: 150px;
+}
+
+h2{
+    position: absolute;
+    bottom:250px;
+    left:16PX;
+    font-size: 30PX;
+}
+
+.pinko{
+    position: absolute;
+    bottom:50PX;
+    left:16PX;
+    font-size: 18PX;
+}
+
+.pro{
+   background-color: #375534;
+   width: 1500PX;
+   height: 700px;
+   margin-top:750PX;
+   margin-left:200px;
+   border-radius: 50PX;
+}
+
+.pro:hover{
+    box-shadow: 1px 1px 1px 10px #375534;
+}
+
+.coffee{
+    margin-left:50px;
+    position: relative;
+    top:47px;
+    background-color: #6b9071;
+    height: 610px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.burger{
+    margin-left: 550px;
+    position: relative;
+    bottom: 564px;
+    background-color: #6b9071;
+    height: 610px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.coffee img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50PX;
+}
+
+.burger img{
+    width: 400px;
+    height: 400px;
+    border-radius: 50PX;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+}
+
+.coffee-button{
+    background-color: yellow;
+     width: 140px;
+     height: 49PX;
+    border: none;
+    border-radius: 5Px;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top:0PX;
+}
+
+.coffee-button:hover{
+    transform: scale(1.05) rotate(5deg);
+    transition-delay: 1s;
+    box-shadow: 3Px 3Px 3px 3Px black;
+}
+
+.burger-button{
+    background-color: yellow;
+     width: 140px;
+     height: 49PX;
+    border: none;
+    border-radius: 5Px;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top:0PX;
+}
+
+.burger-button:hover{
+    transform: scale(1.05) rotate(5deg);
+    transition-delay: 1s;
+    box-shadow: 3Px 3Px 3px 3Px black;
+}
+
+.ice-cream{
+    margin-left:500px;
+    position: relative;
+    bottom:600PX;
+    background-color: #6b9071;
+    height: 610px;
+    width: 400px;
+    border-radius: 50px;
+}
+
+.ice-cream:hover{
+    box-shadow: 3px 3px 10px 10px #6b9071;
+}
+
+.coffee:hover{
+    box-shadow: 3px 3px 10px 10px #6b9071;
+}
+
+.burger:hover{
+    box-shadow: 3px 3px 10px 10px #6b9071;
+}
+
+.ice-cream-button{
+    background-color: yellow;
+     width: 140px;
+     height: 49PX;
+    border: none;
+    border-radius: 5Px;
+    font-size: 20px;
+    margin-left: 130px;
+    margin-top:0PX;
+}
+
+.min-max{
+    font-size: 23px;
+    text-align: center;
+}
+
+h6{
+    text-align: center;
+    font-size: 40px;
+}
+
+h4{
+    text-align: center;
+    font-size: 23px;
+}
+
+p{
+    text-align: center;
+    font-size: 20px;
+}
+
+.work-study{
+    margin-left:300px;
+    width: 400px;
+    height: 200px;
+    background-color: #375534;
+    border:1px solid black;
+    border-radius: 30px;
+}
+
+.macdrive{
+    margin-left: 1200px;
+    position: relative;
+    bottom:203px;
+    width: 400px;
+    height: 200px;
+    background-color: #375534;
+    border:1px solid black;
+    border-radius: 30px;
+}
+
+.zamovic{
+    margin-left: 750px;
+    position: relative;
+    bottom:403px;
+    width: 400px;
+    height: 200px;
+    background-color: #375534;
+    border:1px solid black;
+    border-radius: 30px;
+}
+
+.work-study:hover{
+    box-shadow: 1px 1px 10px 10px #375534;
+}
+
+.zamovic:hover{
+    box-shadow: 1px 1px 10px 10px #375534;
+}
+
+.macdrive:hover{
+    box-shadow: 1px 1px 10px 10px #375534;
+}
+
+.phone-number{
+    position: absolute;
+    font-size: 25px;
+    left:300px;
+
+}
+
+.contack{
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
+    width: 1800px;
+    margin-left: 40px;
+    position: absolute;
+    top:2499px;
+    padding: 10px;
+}
+
+.work-live{
+    margin-left: 790px;
+    position: relative;
+    bottom:160px;
+}
+
+.social{
+    position: relative;
+    bottom:60px;
+    left:840px;
+}
+
+.social img {
+    width: 40px;
+    height: 40px;
+}
+
+.video{
+    position: relative;
+    bottom:380px;
+    width: 1400px;
+    background-color: #375534;
+    height: 430px;
+    border-radius: 50px;
+    margin-left:280px;
+}
+
+.video:hover{
+    box-shadow: 1px 1px 10px 10px #375534;
+}
+
+.video-1{
+    margin-left:100px;
+    position: relative;
+    top:30PX;
+}
+
+.video-2{
+    position: relative;
+    bottom:340px;
+    left:730PX;
+}
+
+.video-1 img{
+    border-radius: 50px;
+}
+
+.video-2 img{
+    border-radius: 50px;
+}
+
+
+
+
+

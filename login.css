@@ -1,0 +1,185 @@
+body{
+    background-color: black;
+}
+
+.register{
+    backdrop-filter: blur(8px);
+    background-color: transparent;
+    margin-left: 38%;
+    margin-right: 40%;
+    margin-top: 200px;
+    width: 450px;
+    height: 600px;
+    border-radius: 40px;
+    border: 3px solid black;
+    box-shadow: 1px 1px 10px 10px aqua;
+}
+
+.register h1{
+    text-align: center;
+    color:white;
+    margin-top:10px;
+    font-size: 50px;
+}
+
+.input-reg{
+    margin-left: 65px;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.password{
+    margin-top: 50px;
+    margin-left: 65px;
+    background-color: white;
+    width: 300px;
+    height: 50px;
+    border-radius: 10px;
+}
+
+.checkbox{
+    position: relative;
+    top: 60px;
+    left: 65px;
+    font-size: 20px;
+    color:white;
+}
+
+.main{
+    background-color: aqua;
+    box-shadow: 1px 1px 10px 10px aqua;
+    width: 200px;
+    height: 50px;
+    border-radius: 30px;
+    color:black;
+    font-size: 18px;
+}
+
+.checkbox input {
+    margin-right: 10px;
+}
+
+.password-non{
+    background-color: transparent;
+    border:none;
+    position: relative;
+    color:white;
+    top:60px;
+    left: 90px;
+    font-size:18px;
+}
+
+.log-in{
+    position: relative;
+    top: 100px;
+    background-color: aqua;
+    color:black;
+    height: 50px;
+    width: 350px;
+    left: 50px;
+    border-radius: 30px;
+    box-shadow: 1px 1px 10px 10px aqua;
+}
+
+.account{
+    background-color: transparent;
+    border:none;
+    font-size: 20px;
+    position: relative;
+    top:150px;
+    left: 67px;
+    color:white;
+}
+
+a{
+    text-decoration: none;
+}
+
+.kolo-1{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px 20px aqua;
+    position: relative;
+    left:50px;
+    bottom:500px;
+}
+
+.kolo-2{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px 20px aqua;
+    position: relative;
+    left:1400px;
+    bottom:250px;
+}
+.kolo-3{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px 20px aqua;
+    position: relative;
+    left:700px;
+    bottom:1000px;
+}
+.kolo-4{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px 20px aqua;
+    position: relative;
+    left:1600px;
+    bottom:1000px;
+}
+.kolo-5{
+    background-color: aqua;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 1px 1px 20px 20px aqua;
+    position: relative;
+    left: 400px;
+    bottom:400px;
+}
+ 
+@keyframes colorChange {
+    0% {
+        background-color: blue;
+        box-shadow: 1px 1px 20px 20px rgba(0, 0, 255, 0.8);
+    }
+    100% {
+        background-color: red;
+        box-shadow: 1px 1px 20px 20px rgba(255, 0, 0, 0.8);
+    }
+}
+
+/* Анімація для всіх кіл */
+.kolo-1, .kolo-2, .kolo-3, .kolo-4, .kolo-5 {
+    animation: colorChange 3s infinite alternate;
+}
+
+/* Анімація для всіх кнопок */
+.main, .log-in  {
+    animation: colorChange 3s infinite alternate;
+    transition: all 0.5s ease-in-out;
+}
+
+.register {
+    animation: registerShadow 3s infinite alternate;
+}
+
+@keyframes registerShadow {
+    0% {
+        box-shadow: 1px 1px 20px 20px rgba(0, 0, 255, 0.8);
+    }
+    100% {
+        box-shadow: 1px 1px 20px 20px rgba(255, 0, 0, 0.8);
+    }
+}
